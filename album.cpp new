@@ -1,0 +1,11 @@
+#pragma once
+class Album
+{
+private:
+	char album_Id[10];
+
+public:
+	Album();
+	void displayAlbumDetails(const char palbum_Id[]);
+	~Album();
+};
